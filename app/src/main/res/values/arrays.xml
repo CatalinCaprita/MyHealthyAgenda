@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="options">
+        <item>Home</item>
+        <item>Diary</item>
+        <item>Recipes</item>
+        <item>Progress</item>
+        <item>Goals</item>
+    </string-array>
+    <string-array name="optionDetails">
+        <item>The home</item>
+        <item>The diary</item>
+        <item>The Recipes</item>
+        <item>The Progress</item>
+        <item>These Goals</item>
+    </string-array>
+    <integer-array name="menuIcons">
+        <item>@drawable/ic_user</item>
+        <item>@drawable/ic_diary</item>
+        <item>@drawable/ic_progress</item>
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_friends</item>
+        <item>@drawable/ic_log_out</item>
+    </integer-array>
+    <string-array name="menuTitles">
+        <item>Profile</item>
+        <item>Diary</item>
+        <item>Progress</item>
+        <item>Home</item>
+        <item>Friends</item>
+        <item>Log-Out</item>
+    </string-array>
+    <string-array name="macroNames">
+        <item>Protein</item>
+        <item>Carbohydrate</item>
+        <item>Fat</item>
+    </string-array>
+
+</resources>

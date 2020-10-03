@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorLightPrimary"
+    tools:context=".pages.diary.DiaryActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_diary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:theme="@android:style/Theme.DeviceDefault.Light.DarkActionBar" />
+
+    <FrameLayout
+        android:id="@+id/frame_balance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar_diary">
+
+    </FrameLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvMeals"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/frame_balance" />
+
+    <FrameLayout
+        android:id="@+id/frame_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar_diary">
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/frame_food_detail_frag"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar_diary">
+
+    </FrameLayout>
+
+</RelativeLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:svg="http://www.w3.org/2000/svg" id="svg7505" viewBox="0 0 791.18 668.75" version="1.1">
+  <g id="layer1" transform="translate(20.592 -197.99)">
+    <g id="g7476" transform="matrix(.96593 -.25882 .25882 .96593 -201.7 -109.76)">
+      <rect id="rect7435" height="502.91" width="676.06" stroke="#333" y="518.05" x="52.829" stroke-width="8" fill="#808080"/>
+      <rect id="rect7437" height="459.95" width="295.95" stroke="#333" y="539.53" x="84.311" stroke-width="8" fill="#fff"/>
+      <rect id="rect7439" height="459.95" width="295.95" stroke="#333" y="539.53" x="401.45" stroke-width="8" fill="#fff"/>
+      <g id="g7447" transform="translate(.5 14)">
+        <rect id="rect7441" y="582.36" width="75" x="352.86" height="14.286"/>
+        <rect id="rect7443" y="748.36" width="75" x="352.86" height="14.286"/>
+        <rect id="rect7445" y="914.36" width="75" x="352.86" height="14.286"/>
+      </g>
+    </g>
+  </g>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+        <cc:license rdf:resource="http://creativecommons.org/licenses/publicdomain/"/>
+        <dc:publisher>
+          <cc:Agent rdf:about="http://openclipart.org/">
+            <dc:title>Openclipart</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:title>office-diary-line drawing</dc:title>
+        <dc:date>2010-08-06T23:20:30</dc:date>
+        <dc:description>black and white, blank, clip art, clipart, diary, note, notebook, office, open book, pages, record, </dc:description>
+        <dc:source>http://openclipart.org/detail/78145/office-diary-line-drawing-by-sheikh_tuhin</dc:source>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>sheikh_tuhin</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>black and white</rdf:li>
+            <rdf:li>blank</rdf:li>
+            <rdf:li>clip art</rdf:li>
+            <rdf:li>clipart</rdf:li>
+            <rdf:li>diary</rdf:li>
+            <rdf:li>note</rdf:li>
+            <rdf:li>notebook</rdf:li>
+            <rdf:li>office</rdf:li>
+            <rdf:li>open book</rdf:li>
+            <rdf:li>pages</rdf:li>
+            <rdf:li>record</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+      <cc:License rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+</svg>

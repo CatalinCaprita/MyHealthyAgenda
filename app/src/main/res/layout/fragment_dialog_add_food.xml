@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorLightPrimary">
+
+    <EditText
+        android:id="@+id/etFoodName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="@string/hint_food_name"
+        android:inputType="textPersonName"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/etProvider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etFoodName"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="@string/hint_provider_name"
+        android:inputType="textPersonName"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/etnQuantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etProvider"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="@string/info_food_serving_size"
+        android:inputType="numberDecimal"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/etnCarbs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etnQuantity"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="@string/hint_carbs_grams"
+        android:inputType="numberDecimal"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/etnProtein"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etnCarbs"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="@string/hint_protein_grams"
+        android:inputType="numberDecimal"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/etnFat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etnProtein"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="@string/hint_fat_grams"
+        android:inputType="numberDecimal"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etnFat"
+        android:layout_alignParentLeft="true"
+        android:background="@color/colorAccent"
+        android:text="@string/label_meal_add_food" />
+
+    <Button
+        android:id="@+id/btnCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etnFat"
+        android:layout_alignParentRight="true"
+        android:background="@color/colorAccent"
+        android:text="@string/label_button_cancel" />
+
+</RelativeLayout>

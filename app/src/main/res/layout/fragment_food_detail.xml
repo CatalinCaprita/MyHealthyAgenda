@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorLightPrimary"
+    tools:context=".pages.diary.fragments.FoodDetailFragment">
+
+    <TextView
+        android:id="@+id/tvFoodName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/info_food_name_producer"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/tvServings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvFoodName"
+        android:layout_marginTop="40dp"
+        android:layout_weight="1"
+        android:text="@string/info_food_no_of_servings"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvEditServings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/tvServings"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="40dp"
+        android:text="TextView"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvGrams"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvServings"
+        android:layout_alignBottom="@id/tvServingSize"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="40dp"
+        android:text="1.0 grams"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvServingSize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvServings"
+        android:layout_marginTop="40dp"
+        android:layout_weight="1"
+        android:text="@string/info_food_serving_size"
+        android:textSize="18sp" />
+
+    <ProgressBar
+        android:id="@+id/pbFromTotal"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvServingSize"
+        android:layout_marginTop="20dp"
+        android:contentDescription="Meme"
+        android:progressTint="@color/colorFat" />
+
+    <com.github.mikephil.charting.charts.PieChart
+        android:id="@+id/pie_chart_macros"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/pbFromTotal" />
+
+</RelativeLayout>

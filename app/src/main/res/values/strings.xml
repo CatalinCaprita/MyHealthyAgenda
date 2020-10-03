@@ -1,0 +1,79 @@
+<resources>
+    <!--CONFIG-->
+    <string name="db_filename">mhadb</string>
+    <string name="app_name">MyHealthyAgenda</string>
+    <string name="welcome">Welcome to your Healthy Agenda!</string>
+    <string name="balance_math">%1$d \u0020\u0020\u0020 - \u0020\u0020\u0020 %2$d \u0020\u0020\u0020 = \u0020\u0020\u0020 %3$d \u0020\u0020\u0020 Remaining \n </string>
+    <string name="error">Credentials not found in the DataBase!</string>
+    <string name="friend_info">Your Online Friends:</string>
+    <string name="newl">\n</string>
+    <string name="today_s_diary">Today\'s Diary</string>
+    <string name="balance_title">Your Calorie Balance for today \n</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="menu">Where to ?</string>
+    <string name="invite_choose_menu">Please Select A valid Item</string>
+    <string name="menu_item_desc">This is a QuickBar menu</string>
+    <string name="item_title">This is item %1$d</string>
+    <string name="error_link">There was as problem connecting to the article!</string>
+    <string name="error_file_creation">There was a problem creating your directories!</string>
+    <string name="welcome_user">Hello, %1$s</string>
+    <!--Section dedicated to Friends Pages-->
+    <string name="btn_friends_list">Friends</string>
+    <string name="btn_friends_req">Requests</string>
+    <string name="btn_friends_send">Send Friend Request</string>
+    <string name="friends_add_mail">Friend Email</string>
+    <string name="friends_add_username">Friend Username</string>
+    <string name="friends_add_alias">Friend Alias(Optional)</string>
+    <string name="friends_err_info_missing">Please Provide information for all the mandatory fields!</string>
+    <string name="friends_err_inexistent">User not found into the DataBase!</string>
+    <string name="friends_add_success">Friend Request Sent!</string>
+    <string name="friends_msg_activity">Last active %1d days ago</string>
+    <!--Section dedicated to LogIn Page-->
+    <string name="hint_user_name">Username</string>
+    <string name="hint_password">Password</string>
+    <string name="btn_log_in">Log in</string>
+    <string name="btn_exit">Exit</string>
+    <!--Seciton dedicated to TOOLBAR MENU TAGS-->
+    <string name="label_menu_item_main">Main Menu</string>
+    <string name="label_menu_item_edit">Edit Diary</string>
+    <string name="label_menu_item_nutrition">Show Nutrition</string>
+    <string name="label_menu_item_misc">Miscellaneous</string>
+    <string name="label_menu_item_add_friend">Add Friend</string>
+    <string name="label_menu_diary_nutrition">Nutrition</string>
+    <string name="label_menu_diary_edit">Edit</string>
+    <!--Add Food Dialog Fragment-->
+    <string name="hint_food_name">Enter Food Name</string>
+    <string name="hint_provider_name">Enter Company Name</string>
+    <string name="hint_carbs_grams">grams Carbohydrate (per 100 grams)</string>
+    <string name="hint_protein_grams">grams Protein (per 100 grams)</string>
+    <string name="hint_fat_grams">grams Fat (per 100 grams)</string>
+    <!--Menu Fragment-->
+    <string name="title_diary">Diary</string>
+    <string name="title_home">Home</string>
+    <string name="title_friends">Friends</string>
+    <string name="title_recipes">Recipes</string>
+    <!-- Meals Recylcer View, DiaryActivity-->
+    <string name="msg_food_error_add">Error Adding The Food!</string>
+    <string name="label_meal_add_food">Add Food</string>
+    <string name="label_food_source_quant">%1$s, %2$4.2f grams</string>
+    <!--Food Detail Fragment, including chart-->
+    <string name="title_food_details_add">Add Food</string>
+    <string name="info_food_name_producer">%1$s (%2$s)</string>
+    <string name="info_food_no_of_servings">Number of servings</string>
+    <string name="info_food_serving_size">Serving Size</string>
+    <string name="info_food_detail_pct_carb">%1$4.2f Carbs(%2$4.2f %%)</string>
+    <string name="info_food_detail_pct_protein">%1$4.2f Protein(%2$4.2f %%)</string>
+    <string name="info_food_detail_pct_fat">%1$4.2f Fat(%2$4.2f %%)</string>
+    <!--Edit Serving Size for Dialog Fragment-->
+    <string name="info_dialog_food_edit">How much?</string>
+    <string name="label_button_cancel">Cancel</string>
+    <string name="desc_macro_content">Macronutrient Percentages</string>
+    <string name="label_button_save">Save</string>
+    <!--Search Food to be Added To Meal-->
+    <string name="hint_enter_food_name">Search food by name..</string>
+    <!--Log-Out Dialog Fragment-->
+    <string name="log_out_validation">Are you sure you want to Log Out? </string>
+    <string name="label_button_log_out">Log Out</string>
+
+
+</resources>

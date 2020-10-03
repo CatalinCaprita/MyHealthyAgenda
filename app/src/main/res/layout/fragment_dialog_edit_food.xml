@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:fadingEdge="none">
+
+    <TextView
+        android:id="@+id/tvHowMuch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/info_dialog_food_edit"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/ntQuantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvHowMuch"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:id="@+id/tvGrams"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvHowMuch"
+        android:layout_alignBaseline="@id/ntQuantity"
+        android:layout_alignBottom="@id/ntQuantity"
+        android:layout_alignParentEnd="false"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_toEndOf="@id/ntQuantity"
+        android:text="Grams"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvGrams"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="10dp"
+        android:background="@android:color/background_light"
+        android:text="@string/label_button_cancel"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvGrams"
+        android:layout_alignParentEnd="false"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_toStartOf="@id/btnCancel"
+        android:background="@android:color/background_light"
+        android:requiresFadingEdge="none"
+        android:text="@string/label_button_save"
+        android:textColor="@color/colorPrimaryDark" />
+</RelativeLayout>
